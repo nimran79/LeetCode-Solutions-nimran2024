@@ -38,3 +38,7 @@ There is no root-to-leaf path with sum = 5.
 	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
 	<li><code>-1000 &lt;= targetSum &lt;= 1000</code></li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the number of node</p>
+<p><strong>Space Complexity:</strong> O(n), where n is the height of the tree</p>
