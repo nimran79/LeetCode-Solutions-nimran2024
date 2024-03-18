@@ -41,5 +41,5 @@ Notice that the order of the output and the order of the triplets does not matte
 </ul>
 
 <h2>Solution Notes:</h2>
-<p><strong>Time Complexity:</strong> O(n<sup>2</sup>), where n is the length of array</p>
-<p><strong>Space Complexity:</strong> O(n)</p>
+<p><strong>Time Complexity:</strong> O(n<sup>2</sup>), where n is the length of array.</p>
+<p><strong>Space Complexity:</strong> O(n) or O(1) depending on the sorting algorithm.</p>
