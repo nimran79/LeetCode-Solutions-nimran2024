@@ -39,3 +39,7 @@ Notice that the order of the output and the order of the triplets does not matte
 	<li><code>3 &lt;= nums.length &lt;= 3000</code></li>
 	<li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n<sup>2</sup>), where n is the length of array</p>
+<p><strong>Space Complexity:</strong> O(n)</p>
