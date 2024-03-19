@@ -29,3 +29,7 @@
 	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
 	<li><code>nums[i] != nums[i + 1]</code> for all valid <code>i</code>.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(logn), where n is the length of the input array</p>
+<p><strong>Space Complexity:</strong> O(1), as it only uses a constant amount of space</p>
