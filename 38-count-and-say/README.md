@@ -38,3 +38,7 @@ countAndSay(4) = say &quot;21&quot; = one 2 + one 1 = &quot;12&quot; + &quot;11&
 <ul>
 	<li><code>1 &lt;= n &lt;= 30</code></li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(N * M), where N is the desired term number in the sequence.</p>
+<p><strong>Space Complexity:</strong> O(M), where M is the average length of a string.</p>
