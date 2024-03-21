@@ -18,6 +18,6 @@ class Solution:
                 exponent = exponent//2
             return result 
 
-        # If n is non-negative, call quick_power with x and n directly.
+        # If n is non-negative, call helper function with x and n directly.
         # Otherwise, calculate the reciprocal of the positive power.
         return alt_power(x, n) if n >= 0 else 1 / alt_power(x, -n)
