@@ -32,3 +32,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> A linked list can be reversed either iteratively or recursively. Could you implement both?</p>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the number of nodes in the Linked List</p>
+<p><strong>Space Complexity:</strong> O(1)</p>
