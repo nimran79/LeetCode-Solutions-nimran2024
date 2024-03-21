@@ -46,3 +46,7 @@
 	<li><code>path</code> consists of English letters, digits, period <code>&#39;.&#39;</code>, slash <code>&#39;/&#39;</code> or <code>&#39;_&#39;</code>.</li>
 	<li><code>path</code> is a valid absolute Unix path.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), since we are traversing the entire input path once.</p>
+<p><strong>Space Complexity:</strong> O(n), since we may have to store entire path in stack</p>
