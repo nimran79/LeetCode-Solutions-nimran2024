@@ -33,3 +33,7 @@
 	<li>Either <code>x</code> is not zero or <code>n &gt; 0</code>.</li>
 	<li><code>-10<sup>4</sup> &lt;= x<sup>n</sup> &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(logn), where n is the size of the exponent</p>
+<p><strong>Space Complexity:</strong> O(1)</p>
