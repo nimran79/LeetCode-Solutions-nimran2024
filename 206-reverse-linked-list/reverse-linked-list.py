@@ -17,7 +17,7 @@ class Solution:
             curr_node.next = prev_node
             prev_node = curr_node
 
-            # Move to the next node in the original list
+            # Move to the next node in the original linked list
             curr_node = next_node
 
         # prev_node now points to the head of the reversed list
