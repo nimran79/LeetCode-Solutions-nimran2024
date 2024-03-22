@@ -41,3 +41,7 @@
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>s[i]</code> is either<code>&#39;(&#39;</code> , <code>&#39;)&#39;</code>, or lowercase English letter<code>.</code></li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the is the length of the string.</p>
+<p><strong>Space Complexity:</strong> O(n)</p>
