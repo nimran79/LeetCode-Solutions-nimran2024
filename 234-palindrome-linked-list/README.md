@@ -24,4 +24,7 @@
 </ul>
 
 <p>&nbsp;</p>
-<strong>Follow up:</strong> Could you do it in <code>O(n)</code> time and <code>O(1)</code> space?
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the size of the Linked list</p>
+<p><strong>Space Complexity:</strong> O(1) for two Pointer method, O(n) for stack method.</p>
