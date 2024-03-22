@@ -2,11 +2,12 @@
 
 Welcome to my LeetCode solutions repository! 🚀
 
-In this repository, you'll find my solutions to various LeetCode problems. These solutions are implemented in **Python3**. Each solution is organized by problem number and title.
+In this repository, you'll find my solutions to various LeetCode problems. These solutions are implemented in **Python 3**. Each solution is organized by problem number and title.
 
 ## Contents
 
-- Solutions to LeetCode problems
-- Clear explanations and code samples
+- Problem descriptions
+- Solution Codes to LeetCode problem (with explanation/comments)
+- Time and Space Complexity
 
 Feel free to explore, learn and give feedback! Happy coding! 😊
