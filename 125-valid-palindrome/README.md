@@ -37,5 +37,5 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 </ul>
 
 <h2>Solution Notes:</h2>
-<p><strong>Time Complexity:</strong> O(n<sup>2</sup>), where n is the length of string</p>
+<p><strong>Time Complexity:</strong> O(n), where n is the length of string</p>
 <p><strong>Space Complexity:</strong> O(1)</p>
