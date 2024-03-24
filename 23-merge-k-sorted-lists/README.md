@@ -43,3 +43,7 @@ merging them into one sorted list:
 	<li><code>lists[i]</code> is sorted in <strong>ascending order</strong>.</li>
 	<li>The sum of <code>lists[i].length</code> will not exceed <code>10<sup>4</sup></code>.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(nlogk), where n is the total number of nodes, k is the number of linked lists</p>
+<p><strong>Space Complexity:</strong> O(1)</p>
