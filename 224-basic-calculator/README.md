@@ -36,3 +36,7 @@
 	<li>There will be no two consecutive operators in the input.</li>
 	<li>Every number and running calculation will fit in a signed 32-bit integer.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the length of string</p>
+<p><strong>Space Complexity:</strong> O(n), since a stack is used (size up to n).</p>
