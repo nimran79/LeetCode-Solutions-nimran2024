@@ -27,3 +27,7 @@
 	<li>All the integers in the expression are non-negative integers in the range <code>[0, 2<sup>31</sup> - 1]</code>.</li>
 	<li>The answer is <strong>guaranteed</strong> to fit in a <strong>32-bit integer</strong>.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the length of string</p>
+<p><strong>Space Complexity:</strong> O(1), since no additional data structure is used.</p>
