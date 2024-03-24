@@ -32,6 +32,10 @@
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the length of the string</p>
+<p><strong>Space Complexity:</strong> O(1)</p>
+
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
 	<li><code>s[i]</code> is either <code>&#39;(&#39;</code> or <code>&#39;)&#39;</code>.</li>
