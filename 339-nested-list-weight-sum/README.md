@@ -1,0 +1,45 @@
+<h2><a href="https://leetcode.com/problems/nested-list-weight-sum">Nested List Weight Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a nested list of integers <code>nestedList</code>. 
+  Each element is either an integer or a list whose elements may also be integers or other lists.</p>
+
+<p>The <strong>depth</strong> of an integer is the number of lists that it is inside of. For example, the nested list <code>[1,[2,2],[[3],2],1]</code> has each integer's value set to its <strong>depth</strong>.</p>
+
+<p>Return the sum of each integer in <code>nestedList</code> <em>multiplied</em> by its <strong>depth.</strong></p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/01/14/nestedlistweightsumex1.png" />
+<pre>
+<strong>Input:</strong> nestedList = [[1,1],2,[1,1]]
+<strong>Output:</strong> 10
+<strong>Explanation:</strong> Four 1's at depth 2, one 2 at depth 1. 1*2 + 1*2 + 2*1 + 1*2 + 1*2 = 10.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/01/14/nestedlistweightsumex2.png" />
+<pre>
+<strong>Input:</strong> nestedList = [1,[4,[6]]]
+<strong>Output:</strong> 27
+<strong>Explanation:</strong> One 1 at depth 1, one 4 at depth 2, and one 6 at depth 3. 1*1 + 4*2 + 6*3 = 27.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nestedList = [0]
+<strong>Output:</strong> 0
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nestedList.length &lt;= 50</code></li>
+	<li>The values of the integers in the nested list is in the range <code>[-100, 100]</code></li>
+	<li>The maximum depth of any integer is less than or equal to <code>50</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the total number of nested elements in the input list</p>
+<p><strong>Space Complexity:</strong> O(D), where D is the number of recursive calls placed on the stack. At worst case, D=n </p>
