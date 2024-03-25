@@ -19,3 +19,9 @@
 	<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity (Using Heap):</strong> O(nlogk), where n is the length of array, k is the size of heap</p>
+<p><strong>Space Complexity (Using Heap):</strong> O(k)</p>
+<p><strong>Time Complexity (Using Quick Select):</strong> O(n) on avg, where n is the length of array</p>
+<p><strong>Space Complexity (Using Quick Select):</strong> O(n)</p>
