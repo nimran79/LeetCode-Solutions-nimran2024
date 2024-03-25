@@ -26,3 +26,7 @@
 	<li><code>1 &lt;= low &lt;= high &lt;= 10<sup>5</sup></code></li>
 	<li>All <code>Node.val</code> are <strong>unique</strong>.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the number of nodes in the tree.</p>
+<p><strong>Space Complexity:</strong> O(h) where h is the height of the tree which can be n at worst case.</p>
