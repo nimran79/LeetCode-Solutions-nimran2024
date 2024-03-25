@@ -36,3 +36,7 @@
 	<li><code>p != q</code></li>
 	<li><code>p</code> and <code>q</code> will exist in the tree.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the number of nodes in the tree.</p>
+<p><strong>Space Complexity:</strong> O(h), where h is the height of the tree which can be n, at worst case</p>
