@@ -11,7 +11,7 @@ class Solution:
             # Check if the current interval does not overlap with the last interval in merged_intervals
             # merged_intervals[-1][1] is the end value of the last interval
             if merged_intervals[-1][1] < start:
-                # If it does not overlap, add the current interval to merged_intervals
+                # When it does not overlap, add the current interval to merged_intervals
                 merged_intervals.append([start, end])
             else:
                 # If it overlaps, merge the current interval with the last one by
