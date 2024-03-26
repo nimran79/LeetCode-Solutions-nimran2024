@@ -30,3 +30,7 @@
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>s</code> consists of lowercase English letters.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the length of string</p>
+<p><strong>Space Complexity:</strong> O(1)</p>
