@@ -31,3 +31,7 @@
 	<li>The number of nodes in both trees is in the range <code>[0, 100]</code>.</li>
 	<li><code>-10<sup>4</sup> &lt;= Node.val &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where <code>n</code> is the number of nodes in the tree.</p>
+<p><strong>Space Complexity:</strong> O(n).</p>
