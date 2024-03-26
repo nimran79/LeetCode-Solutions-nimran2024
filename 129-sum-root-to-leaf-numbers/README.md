@@ -42,3 +42,7 @@ Therefore, sum = 495 + 491 + 40 = <code>1026</code>.
 	<li><code>0 &lt;= Node.val &lt;= 9</code></li>
 	<li>The depth of the tree will not exceed <code>10</code>.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where <code>n</code> is the number of nodes in the tree.</p>
+<p><strong>Space Complexity:</strong> O(h), where <code>h</code> is the height of the tree.</p>
