@@ -25,3 +25,8 @@
 	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
 	<li>All the numbers of&nbsp;<code>nums</code> are <strong>unique</strong>.</li>
 </ul>
+
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> <code>O(2^n)</code>, where <code>n</code> is the number of elements.</p>
+<p><strong>Space Complexity:</strong> <code>O(n)</code>, ignoring the space for output.</p>
