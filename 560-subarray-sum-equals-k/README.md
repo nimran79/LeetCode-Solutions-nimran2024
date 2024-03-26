@@ -18,3 +18,7 @@
 	<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>
 	<li><code>-10<sup>7</sup> &lt;= k &lt;= 10<sup>7</sup></code></li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(n), where n is the length of array.</p>
+<p><strong>Space Complexity:</strong> O(n).</p>
