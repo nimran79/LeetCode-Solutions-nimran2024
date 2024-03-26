@@ -28,3 +28,7 @@
 	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
 	<li><code>s</code> consists of lowercase English letters.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> <code>O(n<sup>2</sup>)</code>, where n is the length of string</p>
+<p><strong>Space Complexity:</strong> <code>O(1)</code></p>
