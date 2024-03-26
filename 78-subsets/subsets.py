@@ -8,7 +8,7 @@ class Solution:
             # Base case: Once all elements are considered
             # Make a copy of the current subset (the largest one) and append it to our answer
             if index == len(nums):
-                subsets.append(current_subset[:])
+                subsets.append(current_subset.copy())
                 return
           
             # Exclude the current element and move to the next
