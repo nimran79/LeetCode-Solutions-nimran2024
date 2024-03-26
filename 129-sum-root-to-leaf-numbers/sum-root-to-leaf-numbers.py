@@ -23,6 +23,6 @@ class Solution:
             # Continue the depth-first search on left and right subtrees, adding their sums.
             return dfs(node.left, num_sum) + dfs(node.right, num_sum)
       
-        # Start the depth-first search with the root node and an initial sum of 0.
+        # Start the dfs with the root node and an initial sum of 0.
         return dfs(root, 0)
         
