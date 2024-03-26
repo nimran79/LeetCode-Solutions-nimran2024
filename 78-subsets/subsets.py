@@ -6,7 +6,7 @@ class Solution:
         # Helper function using depth-first search to find all subsets
         def depth_first_search(index: int):
             # Base case: Once all elements are considered
-            # Make copy of the current subset (the largest one) and append it to our answer
+            # Make a copy of the current subset (the largest one) and append it to our answer
             if index == len(nums):
                 subsets.append(current_subset.copy())
                 return
