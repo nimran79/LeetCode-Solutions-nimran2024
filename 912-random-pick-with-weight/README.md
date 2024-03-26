@@ -57,3 +57,7 @@ and so on.
 	<li><code>1 &lt;= w[i] &lt;= 10<sup>5</sup></code></li>
 	<li><code>pickIndex</code> will be called at most <code>10<sup>4</sup></code> times.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> <code>O(n)</code> for constructor, <code>O(logn)</code> for <code>pickIndex()</code> where n is the length of array</p>
+<p><strong>Space Complexity:</strong> <code>O(n)</code> for constructor, <code>O(1)</code> for <code>pickIndex()</code></p>
