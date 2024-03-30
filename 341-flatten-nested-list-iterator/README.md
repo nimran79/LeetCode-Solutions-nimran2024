@@ -44,3 +44,7 @@ return res
 	<li><code>1 &lt;= nestedList.length &lt;= 500</code></li>
 	<li>The values of the integers in the nested list is in the range <code>[-10<sup>6</sup>, 10<sup>6</sup>]</code>.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(N) for constructor, O(1) for other two functions, where <code>N</code> is the total number of nested elements in the input list.</p>
+<p><strong>Space Complexity:</strong> O(N) where <code>N</code> is the total number of nested integers. </p>
