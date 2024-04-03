@@ -38,3 +38,7 @@
 	<li><code>order</code> and <code>s</code> consist of lowercase English letters.</li>
 	<li>All the characters of <code>order</code> are <strong>unique</strong>.</li>
 </ul>
+
+<h2>Solution Notes:</h2>
+<p><strong>Time Complexity:</strong> O(N + M) or O(N), where N is the length of the larger string. M is the length of the other string.</p>
+<p><strong>Space Complexity:</strong> O(N)</p>
